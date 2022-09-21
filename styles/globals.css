@@ -2,9 +2,10 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family:  Roboto, sans-serif;
-background-color: #F5F5F5;
-  }
+  font-family: Roboto, sans-serif;
+  background-color: #f5f5f5;
+  font-size: 16px;
+}
 
 a {
   color: inherit;
@@ -15,7 +16,7 @@ a {
   box-sizing: border-box;
 }
 
-.header-bg{
+.header-bg {
   background-color: #031424;
   width: 100%;
 }

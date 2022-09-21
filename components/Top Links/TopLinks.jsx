@@ -1,11 +1,8 @@
-
 import { DownOutlined } from "@ant-design/icons";
-import React from "react";
-import styles from "../../styles/TopSection.module.css";
-function TopSection() {
+import styles from "../../styles/TopLinks.module.css";
+export default function TopLinks() {
   return (
-    <div className={styles.top_container}>
-      <div className={styles.link_container}>
+    <div className={styles.link_container}>
         <div className={styles.quick_links_container}>
           <span className={styles.link_1}>About us</span>
           <span className={styles.seperator}>| </span>
@@ -21,8 +18,5 @@ function TopSection() {
         <span className={styles.link_2}>USD <DownOutlined className={styles.icon}/></span>
         </div>
       </div>
-    </div>
-  );
+  )
 }
-
-export default TopSection;

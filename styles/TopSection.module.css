@@ -1,51 +1,6 @@
 .top_container {
-  height: 20vh;
+  height: 28vh;
   background-color: #031424;
   color: #ffffff;
   width: 100%;
-}
-.link_container {
-  display: flex;
-  justify-content: space-between;
-  margin-left: 6rem;
-  margin-right: 6rem;
-  padding-top: 1rem;
-}
-.link_1 {
-  cursor: pointer;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 25px;
-  margin-right: 22px;
-}
-.link_2 {
-  cursor: pointer;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 25px;
-  margin: 0px 22px;
-}
-.link_3 {
-  cursor: pointer;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 25px;
-  margin: 0px 22px;
-}
-.link_4 {
-  cursor: pointer;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 25px;
-  margin: 0px 22px;
-}
-.seperator {
-  color: #bbbbbb;
-}
-.icon{
-    font-size: 8px;
 }

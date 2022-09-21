@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import TopSection from '../components/TopSection/TopSection'
+import TopSection from '../components/Top Section/TopSection'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -9,7 +9,6 @@ export default function Home() {
       <Head>
         <title>Walcart</title>
         <meta name="description" content="Landing page of Walcart" />
-        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css" />
       </Head>
 
       <TopSection />
