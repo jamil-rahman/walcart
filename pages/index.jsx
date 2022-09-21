@@ -9,7 +9,7 @@ export default function Home() {
       <Head>
         <title>Walcart</title>
         <meta name="description" content="Landing page of Walcart" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css" />
       </Head>
 
       <TopSection />
