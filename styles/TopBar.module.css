@@ -15,9 +15,10 @@
   background-color: white;
   border: 0;
   font-size: 18px;
-  padding: 15px;
+  padding: 1.3rem;
   height: 3.3rem;
-  width: 22rem;
+  width: 39rem;
+  outline: none;
 }
 .search_input {
   display: flex;
@@ -36,10 +37,40 @@
 .search_button{
   height: 3.3rem;
   width: 109px;
-  border: 1px solid red;
   padding: 20px;
   text-align: center;
   background-color: #EF262C;
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
+  cursor: pointer;
+}
+.search_button:hover{
+  transform: scale(1.1);
+  transition: 0.6s ease-in-out;
+}
+
+.account_container{
+  display: flex;
+  align-items: center;
+}
+.sign_in_container{
+  display: flex;
+  flex-direction: column;
+ 
+}
+.sign_in_button{
+  opacity: 0.5;
+  cursor: pointer;
+}
+.account_button{
+  margin-top: 4px;
+  cursor: pointer;
+}
+.favorites{
+  display: flex;
+  align-items: center;
+  margin: 0 2.2rem;
+}
+.favorite_icon{
+  
 }
