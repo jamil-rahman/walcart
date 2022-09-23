@@ -1,5 +1,5 @@
 .bottom_navigation_container{
-    margin-top: 4.4rem;
+    padding-top: 4.4rem;
     display: flex;
     justify-content: space-between;
 }
