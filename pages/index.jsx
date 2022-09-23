@@ -1,8 +1,8 @@
-import Head from 'next/head'
-import BodySection from '../components/Body Section/BodySection'
-import TopSection from '../components/Top Section/TopSection'
-import styles from '../styles/Home.module.css'
-import 'bootstrap/dist/css/bootstrap.min.css';
+import Head from "next/head";
+import BodySection from "../components/Body Section/BodySection";
+import TopSection from "../components/Top Section/TopSection";
+import styles from "../styles/Home.module.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
 
       <TopSection />
-     <BodySection />
+      <BodySection />
     </div>
-  )
+  );
 }

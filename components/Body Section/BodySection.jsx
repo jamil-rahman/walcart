@@ -2,6 +2,7 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Carousel from "../Carousel/CarouselSlider";
 import DropDownMenu from "../Drop Down Menu/DropDownMenu";
+import FeaturedProduct from "../Featured Product/FeaturedProduct";
 
 function BodySection() {
   return (
@@ -9,16 +10,14 @@ function BodySection() {
     <div style={{paddingTop: "3rem", backgroundColor: "#F5F5F5" }}>
       <Container>
         <Row>
-          <Col sm={2}>
+          <Col sm={3}>
             <DropDownMenu />
           </Col>
-          <Col sm={8}>
+          <Col sm={6}>
           <Carousel />
             </Col>
-          <Col sm={2}>
-          <div style={{border:"1px solid blue"}}>
-          3 of 3
-          </div>
+          <Col sm={3}>
+            <FeaturedProduct />
           </Col>
         </Row>
       </Container>
