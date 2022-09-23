@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import TopSection from '../components/Top Section/TopSection'
 import styles from '../styles/Home.module.css'
 

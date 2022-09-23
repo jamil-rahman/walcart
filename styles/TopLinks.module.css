@@ -1,8 +1,6 @@
 .link_container {
     display: flex;
     justify-content: space-between;
-    margin-left: 6rem;
-    margin-right: 6rem;
     padding-top: 1rem;
   }
   .link_1 {
@@ -42,4 +40,5 @@
   }
   .icon{
       font-size: 8px;
+      text-align: center;
   }

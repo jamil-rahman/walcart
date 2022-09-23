@@ -1,0 +1,49 @@
+.bottom_navigation_container{
+    margin-top: 4.4rem;
+    display: flex;
+    justify-content: space-between;
+}
+.nav_items_container{
+    display: flex;
+    width: 70%;
+}
+
+.nav_item_1{
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+    height: 4.2rem;
+    background-color: #EF262C;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    cursor:pointer;
+    align-items: center;
+    padding: 1rem;
+    font-weight: 500;
+}
+.nav_item_2{
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+    height: 4.2rem;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    align-items: center;
+    padding: 1rem;
+    font-weight: 500;
+}
+.nav_item_2:hover{
+    cursor: pointer;
+    background-color: #EF262c;
+}
+.discounts_contaienr{
+    display: flex;
+    width: 16%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.discounts{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
