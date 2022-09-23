@@ -3,6 +3,7 @@ import BodySection from "../components/Body Section/BodySection";
 import TopSection from "../components/Top Section/TopSection";
 import styles from "../styles/Home.module.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import BottomSection from "../components/Bottom Section/BottomSection";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
 
       <TopSection />
       <BodySection />
+      <BottomSection />
     </div>
   );
 }

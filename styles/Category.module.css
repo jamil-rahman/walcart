@@ -1,0 +1,9 @@
+.category_card{
+    background-color: white;
+    margin-bottom: 24px;
+    padding: 20px 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 8px;
+}
