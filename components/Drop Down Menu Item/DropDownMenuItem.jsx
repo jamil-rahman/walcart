@@ -3,7 +3,7 @@ import Dropdown from "react-bootstrap/Dropdown";
 import DropdownButton from "react-bootstrap/DropdownButton";
 import ButtonGroup from "react-bootstrap/ButtonGroup";
 import Image from "next/image";
-import styles from "../../styles/Dropdown.module.css";
+import styles from "../../styles/DropDown.module.css";
 
 function DropDownMenuItem(props) {
   return (
