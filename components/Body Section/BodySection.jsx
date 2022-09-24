@@ -7,21 +7,21 @@ import FeaturedProduct from "../Featured Product/FeaturedProduct";
 function BodySection() {
   return (
     <>
-    <div style={{paddingTop: "3rem", backgroundColor: "#F5F5F5" }}>
-      <Container>
-        <Row>
-          <Col sm={3}>
-            <DropDownMenu />
-          </Col>
-          <Col sm={6}>
-          <Carousel />
+      <div style={{ paddingTop: "3rem", backgroundColor: "#F5F5F5" }}>
+        <Container>
+          <Row>
+            <Col sm={3}>
+              <DropDownMenu />
             </Col>
-          <Col sm={3}>
-            <FeaturedProduct />
-          </Col>
-        </Row>
-      </Container>
-    </div>
+            <Col sm={6}>
+              <Carousel />
+            </Col>
+            <Col sm={3}>
+              <FeaturedProduct />
+            </Col>
+          </Row>
+        </Container>
+      </div>
     </>
   );
 }
