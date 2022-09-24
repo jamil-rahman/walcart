@@ -13,6 +13,10 @@ This is a landing page for the Walcart, an online marketplace from Bangladesh th
 
 ## SET UP
 
+### Make sure you have at least Node.js v12.22 installed. 
+
+If you do not have it installed, you can download the lastest version of Node.js from [here](https://nodejs.org/en/)
+
 ### 1. Clone the Repository
 Next, you have to clone the repository onto your machine using the following terminal command:
 ```bash
@@ -41,7 +45,8 @@ npm run dev
 
 ## CONTACT
 Jamilur Rahman - [r.jamilur96@gmail.com](r.jamilur96@gmail.com) <br>
-[LinkedIn](https://www.linkedin.com/in/jamilurrahman96/)
+[LinkedIn](https://www.linkedin.com/in/jamilurrahman96/) <br>
+[Live Demo](https://walcartbd.vercel.app/)
 
 ## ATTRIBUTION
 [Walcart](https://www.walcart.com/) for giving me the opportunity to work on this
