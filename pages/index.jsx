@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Walcart</title>
+        <title>Walcart: Online Global Marketplace</title>
         <meta name="description" content="Landing page of Walcart" />
       </Head>
 

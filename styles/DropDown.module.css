@@ -1,10 +1,7 @@
 .drop_menu_item{
     display: flex;
-    
     align-items: center;
 }
 .menu_item{
     height:100px
-
-
 }
