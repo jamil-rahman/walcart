@@ -4,7 +4,7 @@ This is a landing page for the Walcart, an online marketplace from Bangladesh th
 
 ## SCREENSHOTS
 
-<a href="url"><img src="https://cdn.discordapp.com/attachments/910610127659368459/1023064268691755091/unknown.png" height="480" width="600" ></a>
+<a href="url"><img src="https://cdn.discordapp.com/attachments/910610127659368459/1023064268691755091/unknown.png" height="480" width="1000" ></a>
 
 ## TECH USED
 * React Boostrap
