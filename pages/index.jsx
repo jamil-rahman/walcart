@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import BottomSection from "../components/Bottom Section/BottomSection";
 
 export default function Home() {
+  
   return (
     <>
       <Head>

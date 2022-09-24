@@ -9,8 +9,12 @@ import popcorn from "../../public/assets/IMAGE.png";
 import basket from "../../public/assets/basket.png";
 import laptop from "../../public/assets/laptop.png";
 import dress from "../../public/assets/dress.png";
+import { useDispatch, useSelector } from "react-redux";
+import {decrement, increment, selectCartValue } from '../../redux/slices/cartSlice'
 
 function BottomSection() {
+  const cart = useSelector(selectCartValue);
+  const dispatch = useDispatch()
   return (
     <div style={{ paddingTop: "3rem", backgroundColor: "#F5F5F5" }}>
       <Container>
@@ -22,6 +26,7 @@ function BottomSection() {
                 src={laptop}
                 alt="laptop"
                 title="Electronic Appliances"
+                cart={cart}
               />
             </Col>
 
